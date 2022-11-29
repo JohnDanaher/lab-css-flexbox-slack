@@ -1,3 +1,1506 @@
+@media (max-width: 768px) {
+html {
+    font-size: 10px;
+}
+
+nav {
+    background-color: #540B51;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hidden-links {
+    visibility: hidden;
+}
+
+.nav-buttons button {
+    background-color: #540B51;
+    border-style: none;
+}
+
+.search-nav-button {
+    margin-right: 10px;
+    background-color: #540B51;
+}
+
+.menu-nav-button {
+    margin-right: 20px;
+}
+
+.slack-logo {
+    width: 90px;
+    margin: 20px;
+}
+
+header {
+    padding: 10px;
+    background-color: #540B51;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    word-spacing: 0.15rem;
+    color: white;
+    text-align: center;
+}
+
+.color-change {
+   color:#ECB12F
+}
+
+.sign-up-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.sign-up-buttons button {
+    font-size: 0.75rem;
+    margin: 3px;
+    border-radius: .5rem;
+    text-transform: uppercase;
+
+}
+
+.email-sign-up-button {
+    padding: 1rem;
+    color:#540B51
+}
+
+.google-sign-up-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #4285F4;
+    color: white;
+}
+
+.google-logo-text {
+   align-items: center;
+   margin: 0 auto;
+}
+
+.google-logo {
+    width: 1.5rem;
+    margin: 2px -20px 2px -2px;
+    background-color: white;
+    padding: 6px;
+}
+
+.slack-screenshot {
+    width: 90vw;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #F3EAE2;
+    padding-top: 10px;
+}
+
+.corporate-nonsense p {
+   text-align: center;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.corporate-nonsense-images {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+
+.corporate-nonsense-images img {
+    width: 5rem;
+    margin: 0.85rem;
+}
+
+#nasa, #target {
+    width: 3em;
+}
+
+#uber {
+    width: 4em;
+}
+
+#spotify {
+    width: 7em;
+    margin-right: 3rem;
+}
+
+#nyt {
+    width: 12em;
+    margin-left: 3rem;
+}
+
+.connectedness-image, .flexibility-image, .speed-image {
+    width: 95vw;
+    margin: 3rem 0;
+}
+
+
+.flexibility-image {
+    margin-left: 1.5rem;
+}
+
+.speed-image {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+
+.teamwork p, span {
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.flexibility p, span {
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.speed p, span {
+    margin: 0 0.5rem 1rem 0.5rem;
+}
+
+.bragging {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    margin-top: 3rem;
+    margin-bottom: -5rem;
+}
+
+.bragging h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0.5rem 2rem;
+}
+
+.bragging p {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.bragging-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.bragging-buttons button {
+
+    margin: 3px;
+    padding: 10px;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: .5rem;
+}
+
+#purple {
+    background-color: #540B51;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    color: #540B51;
+}
+
+.bragging-statistics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    width: 50vw;
+    margin: 3rem auto;
+    padding-right: 3rem;
+    color: #540B51;
+
+}
+
+.bragging-statistics span {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#fine-print {
+    width: 80vw;
+    margin-left: -10rem;
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    font-weight: lighter;
+    color: lightgray;
+
+}
+
+.welcome {
+    background-color: #540B51;
+    padding: 1rem 2rem 5rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85vw;
+    margin: 0 auto;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+
+.welcome h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.welcome button {
+    margin: 3px;
+    padding: 10px;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: .5rem;
+}
+
+.welcome-button-purple {
+    background-color: #540B51;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+
+.welcome-button-white {
+    background-color: white;
+    color: #540B51;
+}
+
+footer img {
+    width: 3rem;
+    padding: 4rem 1rem 1rem 1rem;
+}
+
+.footer-lists {
+    align-items: flex-start;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.75rem;
+    line-height: 2rem;
+}
+
+.footer-list {
+    line-height: 1rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.footer-lists ul {
+    list-style-type: none;
+}
+
+.footer-list-five {
+    margin-left: -3rem;
+    text-align: left;
+    list-style-type: none;
+    font-size: .85rem;
+    font-weight: bolder;
+    line-height: 3rem;
+}
+
+#blue {
+    color: #2E71A6;
+}
+
+.more-corporate-nonsense {
+    list-style-type: none;
+    margin-left: -4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+
+    
+    nav {
+        background-color: #540B51;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hidden-links {
+        visibility: hidden;
+    }
+    
+    .nav-buttons button {
+        background-color: #540B51;
+        border-style: none;
+    }
+    
+    .search-nav-button {
+        margin-right: 10px;
+        background-color: #540B51;
+    }
+    
+    .menu-nav-button {
+        margin-right: 20px;
+    }
+    
+    .slack-logo {
+        width: 90px;
+        margin: 20px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        padding: 10px;
+        background-color: #540B51;
+    }
+    
+    header h1 {
+        font-size: 5rem;
+        color: white;
+        text-align: left;
+    }
+    
+    header p {
+        word-spacing: 0.15rem;
+        color: white;
+        text-align: left;
+    }
+    
+    .color-change {
+       color:#ECB12F
+    }
+    
+    .sign-up-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30vw;
+        margin-bottom: 5rem;
+    }
+    
+    .sign-up-buttons button {
+        font-size: 0.75rem;
+        margin: 3px;
+        border-radius: .5rem;
+        text-transform: uppercase;
+    
+    }
+    
+    .email-sign-up-button {
+        padding: 1rem;
+        color:#540B51
+    }
+    
+    .google-sign-up-button {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #4285F4;
+        color: white;
+    }
+    
+    .google-logo-text {
+       align-items: center;
+       margin: 0 auto;
+    }
+    
+    .google-logo {
+        width: 1.5rem;
+        margin: 2px -20px 2px -2px;
+        background-color: white;
+        padding: 6px;
+    }
+    
+    .slack-screenshot {
+        width: 300px;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        margin-left: -5rem;
+    }
+    
+    main {
+        background-color: #F3EAE2;
+        padding-top: 10px;
+    }
+    
+    .corporate-nonsense p {
+       text-align: center;
+       font-size: 1.5rem;
+       font-weight: bold;
+    }
+    
+    .corporate-nonsense-images {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        align-content: space-around;
+        align-items: center;
+    }
+    
+    .corporate-nonsense-images img {
+        width: 10rem;
+        margin: 0.85rem;
+    }
+    
+    #nasa, #target {
+        width: 3em;
+    }
+    
+    #uber {
+        width: 4em;
+    }
+    
+    #spotify {
+        width: 7em;
+        margin-right: 3rem;
+    }
+    
+    #nyt {
+        width: 12em;
+        margin-left: 3rem;
+    }
+
+    .teamwork {
+        align-items: center;
+        margin: 0 20rem;
+    }
+
+    .teamwork p, span {
+        margin: 0 0.5rem 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .flexibility {
+        align-items: center;
+        margin: 0 20rem;
+    }
+
+    .flexibility p, span {
+        margin: 0 0.5rem 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .speed {
+        align-items: center;
+        margin: 0 20rem;
+    }
+    
+    .speed p, span {
+        margin: 0 0.5rem 1rem 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .connectedness-image, .flexibility-image, .speed-image {
+        width: 95vw;
+        margin: 3rem 0;
+    }
+    
+    
+    .flexibility-image {
+        margin-left: 1.5rem;
+    }
+    
+    .speed-image {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    
+    h2 {
+        margin-left: 0.5rem;
+        font-size: 2rem;
+    }
+    
+    
+    a {
+        text-decoration-line: none;
+    }
+    
+    
+    .bragging {
+        background-color: white;
+        padding-top: 3rem;
+        padding-bottom: 0;
+        margin-top: 3rem;
+        margin-bottom: -5rem;
+    }
+    
+    .bragging h3 {
+        font-size: 1.8rem;
+        text-align: center;
+        margin: 0.5rem 2rem;
+    }
+    
+    .bragging p {
+        text-align: center;
+        margin: 0.5rem;
+    }
+    
+    .bragging-buttons {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        width: 95vw;
+        margin: 0 auto;
+    }
+    
+    .bragging-buttons button {
+    
+        margin: 3px;
+        padding: 10px;
+        font-size: 0.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: .5rem;
+    }
+    
+    #purple {
+        background-color: #540B51;
+        color: white;
+    }
+    
+    #white {
+        background-color: white;
+        color: #540B51;
+    }
+    
+    .bragging-statistics {
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        list-style-type: none;
+        width: 50vw;
+        margin: 3rem auto;
+        color: #540B51;
+    
+    }
+
+    .bragging-statistics li {
+        padding: 0 5rem;
+    }
+
+    .bragging-statistics span {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    
+    #fine-print {
+        width: 90vw;
+        margin-left: -6.5rem;
+        margin-bottom: 2rem;
+        font-size: .75rem;
+        font-weight: lighter;
+       color: white;
+    
+    }
+    
+    .welcome {
+        background-color: #540B51;
+        padding: 1rem 2rem 5rem 2rem; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 85vw;
+        margin: 0 auto;
+        border-bottom-left-radius: 45%;
+        border-bottom-right-radius: 45%;
+    }
+    
+    .welcome h3 {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+    }
+    
+    .welcome button {
+        margin: 3px;
+        padding: 10px;
+        font-size: 0.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: .5rem;
+    }
+    
+    .welcome-button-purple {
+        background-color: #540B51;
+        color: white;
+        border-color: white;
+        border-width: 1px;
+    }
+    
+    .welcome-button-white {
+        background-color: white;
+        color: #540B51;
+    }
+    
+    footer img {
+        width: 3rem;
+        padding: 4rem 1rem 1rem 12rem;
+    }
+    
+    .footer-lists {
+        align-items: flex-start;
+        margin-right: 3rem;
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.75rem;
+        line-height: 2rem;
+    }
+    
+    .footer-list {
+        line-height: 1rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-lists ul {
+        list-style-type: none;
+    }
+    
+    .footer-list-five {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: -3rem;
+        text-align: left;
+        list-style-type: none;
+        font-size: .85rem;
+        font-weight: bolder;
+        line-height: 3rem;
+    }
+    
+    #blue {
+        color: #2E71A6;
+    }
+    
+    .more-corporate-nonsense {
+        list-style-type: none;
+        margin-left: -4rem;
+        display: flex;
+        justify-content: left;
+    }
+
+    .more-corporate-nonsense li {
+        padding: 0 1rem;
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        html {
+            font-size: 10px;
+        }
+    
+        nav {
+            background-color: #540B51;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+    
+        .nav-buttons button {
+            background-color: #540B51;
+            border-style: none;
+        }
+        
+        .search-nav-button {
+            margin-right: 10px;
+            background-color: #540B51;
+        }
+        
+        .menu-nav-button {
+            visibility: hidden;
+            margin-right: 20px;
+        }
+        
+        .slack-logo {
+            width: 90px;
+            margin: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 10px;
+            background-color: #540B51;
+        }
+        
+        header h1 {
+            font-size: 5rem;
+            color: white;
+            text-align: left;
+        }
+        
+        header p {
+            word-spacing: 0.15rem;
+            color: white;
+            text-align: left;
+        }
+        
+        .color-change {
+           color:#ECB12F
+        }
+        
+        .sign-up-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 30vw;
+            margin-bottom: 5rem;
+        }
+        
+        .sign-up-buttons button {
+            font-size: 0.75rem;
+            margin: 3px;
+            border-radius: .5rem;
+            text-transform: uppercase;
+        
+        }
+        
+        .email-sign-up-button {
+            padding: 1rem;
+            color:#540B51
+        }
+        
+        .google-sign-up-button {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: #4285F4;
+            color: white;
+        }
+        
+        .google-logo-text {
+           align-items: center;
+           margin: 0 auto;
+        }
+        
+        .google-logo {
+            width: 1.5rem;
+            margin: 2px -20px 2px -2px;
+            background-color: white;
+            padding: 6px;
+        }
+        
+        .slack-screenshot {
+            width: 300px;
+            margin-top: 1rem;
+            margin-bottom: 0;
+            margin-left: -5rem;
+        }
+        
+        main {
+            background-color: #F3EAE2;
+            padding-top: 10px;
+        }
+        
+        .corporate-nonsense p {
+           text-align: center;
+           font-size: 1.5rem;
+           font-weight: bold;
+        }
+        
+        .corporate-nonsense-images {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            align-content: space-around;
+            align-items: center;
+        }
+        
+        .corporate-nonsense-images img {
+            width: 10rem;
+            margin: 0.85rem;
+        }
+        
+        #nasa, #target {
+            width: 3em;
+        }
+        
+        #uber {
+            width: 4em;
+        }
+        
+        #spotify {
+            width: 7em;
+            margin-right: 3rem;
+        }
+        
+        #nyt {
+            width: 12em;
+            margin-left: 3rem;
+        }
+    
+        .teamwork {
+            align-items: center;
+            margin: 0 20rem;
+        }
+    
+        .teamwork p, span {
+            margin: 0 0.5rem 1rem 0.5rem;
+            font-size: 1.5rem;
+        }
+    
+        .flexibility {
+            align-items: center;
+            margin: 0 20rem;
+        }
+    
+        .flexibility p, span {
+            margin: 0 0.5rem 1rem 0.5rem;
+            font-size: 1.5rem;
+        }
+    
+        .speed {
+            align-items: center;
+            margin: 0 20rem;
+        }
+        
+        .speed p, span {
+            margin: 0 0.5rem 1rem 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .connectedness-image, .flexibility-image, .speed-image {
+            width: 95vw;
+            margin: 3rem 0;
+        }
+        
+        
+        .flexibility-image {
+            margin-left: 1.5rem;
+        }
+        
+        .speed-image {
+            margin-top: 5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            margin-left: 0.5rem;
+            font-size: 2rem;
+        }
+        
+        
+        a {
+            text-decoration-line: none;
+        }
+        
+        
+        .bragging {
+            background-color: white;
+            padding-top: 3rem;
+            padding-bottom: 0;
+            margin-top: 3rem;
+            margin-bottom: -5rem;
+        }
+        
+        .bragging h3 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin: 0.5rem 2rem;
+        }
+        
+        .bragging p {
+            text-align: center;
+            margin: 0.5rem;
+        }
+        
+        .bragging-buttons {
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            width: 95vw;
+            margin: 0 auto;
+        }
+        
+        .bragging-buttons button {
+        
+            margin: 3px;
+            padding: 10px;
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: .5rem;
+        }
+        
+        #purple {
+            background-color: #540B51;
+            color: white;
+        }
+        
+        #white {
+            background-color: white;
+            color: #540B51;
+        }
+        
+        .bragging-statistics {
+            display: flex;
+            flex-direction:row;
+            justify-content:space-around;
+            list-style-type: none;
+            width: 50vw;
+            margin: 3rem auto;
+            color: #540B51;
+        
+        }
+    
+        .bragging-statistics li {
+            padding: 0 5rem;
+        }
+    
+        .bragging-statistics span {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        
+        #fine-print {
+            width: 90vw;
+            margin-left: -6.5rem;
+            margin-bottom: 2rem;
+            font-size: .75rem;
+            font-weight: lighter;
+           color: white;
+        
+        }
+        
+        .welcome {
+            background-color: #540B51;
+            padding: 1rem 2rem 5rem 2rem; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 90vw;
+            margin: 0 auto;
+            border-bottom-left-radius: 45%;
+            border-bottom-right-radius: 45%;
+        }
+        
+        .welcome h3 {
+            font-size: 2rem;
+            text-align: center;
+            color: white;
+        }
+        
+        .welcome button {
+            width: 20vw;
+            margin: 3px auto;
+            padding: 10px;
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: .5rem;
+        }
+        
+        .welcome-button-purple {
+            background-color: #540B51;
+            color: white;
+            border-color: white;
+            border-width: 1px;
+        }
+        
+        .welcome-button-white {
+            background-color: white;
+            color: #540B51;
+        }
+        
+        footer img {
+            width: 3rem;
+            padding: 4rem 1rem 1rem 12rem;
+        }
+        
+        .footer-lists {
+            align-items: flex-start;
+            margin-right: 3rem;
+            display: flex;
+            justify-content: space-around;
+            font-size: 0.75rem;
+            line-height: 2rem;
+        }
+        
+        .footer-list {
+            line-height: 1rem;
+            font-weight: bolder;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-lists ul {
+            list-style-type: none;
+        }
+        
+        .footer-list-five {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-left: -3rem;
+            text-align: left;
+            list-style-type: none;
+            font-size: .85rem;
+            font-weight: bolder;
+            line-height: 3rem;
+        }
+        
+        #blue {
+            color: #2E71A6;
+        }
+        
+        .more-corporate-nonsense {
+            list-style-type: none;
+            margin-left: -4rem;
+            display: flex;
+            justify-content: left;
+        }
+    
+        .more-corporate-nonsense li {
+            padding: 0 1rem;
+        }
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+        @media (min-width: 1440px) {
+            html {
+                font-size: 10px;
+            }
+        
+            nav {
+                background-color: #540B51;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        
+        
+            .nav-buttons button {
+                background-color: #540B51;
+                border-style: none;
+            }
+            
+            .search-nav-button {
+                margin-right: 10px;
+                background-color: #540B51;
+            }
+            
+            .menu-nav-button {
+                visibility: hidden;
+                margin-right: 20px;
+            }
+            
+            .slack-logo {
+                width: 90px;
+                margin: 20px;
+            }
+            
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: stretch;
+                padding: 10px;
+                background-color: #540B51;
+            }
+            
+            header h1 {
+                font-size: 5rem;
+                color: white;
+                text-align: left;
+            }
+            
+            header p {
+                word-spacing: 0.15rem;
+                color: white;
+                text-align: left;
+            }
+            
+            .color-change {
+               color:#ECB12F
+            }
+            
+            .sign-up-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                width: 30vw;
+                margin-bottom: 5rem;
+            }
+            
+            .sign-up-buttons button {
+                font-size: 0.75rem;
+                margin: 3px;
+                border-radius: .5rem;
+                text-transform: uppercase;
+            
+            }
+            
+            .email-sign-up-button {
+                padding: 1rem;
+                color:#540B51
+            }
+            
+            .google-sign-up-button {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                background-color: #4285F4;
+                color: white;
+            }
+            
+            .google-logo-text {
+               align-items: center;
+               margin: 0 auto;
+            }
+            
+            .google-logo {
+                width: 1.5rem;
+                margin: 2px -20px 2px -2px;
+                background-color: white;
+                padding: 6px;
+            }
+            
+            .slack-screenshot {
+                width: 300px;
+                margin-top: 1rem;
+                margin-bottom: 0;
+                margin-left: -5rem;
+            }
+            
+            main {
+                background-color: #F3EAE2;
+                padding-top: 10px;
+            }
+            
+            .corporate-nonsense p {
+               text-align: center;
+               font-size: 1.5rem;
+               font-weight: bold;
+            }
+            
+            .corporate-nonsense-images {
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: space-between;
+                align-content: space-around;
+                align-items: center;
+            }
+            
+            .corporate-nonsense-images img {
+                width: 10rem;
+                margin: 0.85rem;
+            }
+            
+            #nasa, #target {
+                width: 3em;
+            }
+            
+            #uber {
+                width: 4em;
+            }
+            
+            #spotify {
+                width: 7em;
+                margin-right: 3rem;
+            }
+            
+            #nyt {
+                width: 12em;
+                margin-left: 3rem;
+            }
+        
+            .teamwork {
+                align-items: center;
+                margin: 0 20rem;
+            }
+        
+            .teamwork p, span {
+                margin: 0 0.5rem 1rem 0.5rem;
+                font-size: 1.5rem;
+            }
+        
+            .flexibility {
+                align-items: center;
+                margin: 0 20rem;
+            }
+        
+            .flexibility p, span {
+                margin: 0 0.5rem 1rem 0.5rem;
+                font-size: 1.5rem;
+            }
+        
+            .speed {
+                align-items: center;
+                margin: 0 20rem;
+            }
+            
+            .speed p, span {
+                margin: 0 0.5rem 1rem 0.5rem;
+                font-size: 1.5rem;
+            }
+            
+            .connectedness-image, .flexibility-image, .speed-image {
+                width: 95vw;
+                margin: 3rem 0;
+            }
+            
+            
+            .flexibility-image {
+                margin-left: 1.5rem;
+            }
+            
+            .speed-image {
+                margin-top: 5rem;
+                margin-bottom: 1rem;
+            }
+            
+            h2 {
+                margin-left: 0.5rem;
+                font-size: 2rem;
+            }
+            
+            
+            a {
+                text-decoration-line: none;
+            }
+            
+            
+            .bragging {
+                background-color: white;
+                padding-top: 3rem;
+                padding-bottom: 0;
+                margin-top: 3rem;
+                margin-bottom: -5rem;
+            }
+            
+            .bragging h3 {
+                font-size: 1.8rem;
+                text-align: center;
+                margin: 0.5rem 2rem;
+            }
+            
+            .bragging p {
+                text-align: center;
+                margin: 0.5rem;
+            }
+            
+            .bragging-buttons {
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                width: 95vw;
+                margin: 0 auto;
+            }
+            
+            .bragging-buttons button {
+            
+                margin: 3px;
+                padding: 10px;
+                font-size: 0.75rem;
+                text-align: center;
+                text-transform: uppercase;
+                border-radius: .5rem;
+            }
+            
+            #purple {
+                background-color: #540B51;
+                color: white;
+            }
+            
+            #white {
+                background-color: white;
+                color: #540B51;
+            }
+            
+            .bragging-statistics {
+                display: flex;
+                flex-direction:row;
+                justify-content:space-around;
+                list-style-type: none;
+                width: 50vw;
+                margin: 3rem auto;
+                color: #540B51;
+            
+            }
+        
+            .bragging-statistics li {
+                padding: 0 5rem;
+            }
+        
+            .bragging-statistics span {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            
+            #fine-print {
+                width: 90vw;
+                margin-left: -6.5rem;
+                margin-bottom: 2rem;
+                font-size: .75rem;
+                font-weight: lighter;
+               color: white;
+            
+            }
+            
+            .welcome {
+                background-color: #540B51;
+                padding: 1rem 2rem 5rem 2rem; 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 90vw;
+                margin: 0 auto;
+                border-bottom-left-radius: 45%;
+                border-bottom-right-radius: 45%;
+            }
+            
+            .welcome h3 {
+                font-size: 2rem;
+                text-align: center;
+                color: white;
+            }
+            
+            .welcome button {
+                width: 20vw;
+                margin: 3px auto;
+                padding: 10px;
+                font-size: 0.75rem;
+                text-align: center;
+                text-transform: uppercase;
+                border-radius: .5rem;
+            }
+            
+            .welcome-button-purple {
+                background-color: #540B51;
+                color: white;
+                border-color: white;
+                border-width: 1px;
+            }
+            
+            .welcome-button-white {
+                background-color: white;
+                color: #540B51;
+            }
+            
+            footer img {
+                width: 3rem;
+                padding: 4rem 1rem 1rem 12rem;
+            }
+            
+            .footer-lists {
+                align-items: flex-start;
+                margin-right: 3rem;
+                display: flex;
+                justify-content: space-around;
+                font-size: 0.75rem;
+                line-height: 2rem;
+            }
+            
+            .footer-list {
+                line-height: 1rem;
+                font-weight: bolder;
+                margin-bottom: 1rem;
+            }
+            
+            .footer-lists ul {
+                list-style-type: none;
+            }
+            
+            .footer-list-five {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-left: -3rem;
+                text-align: left;
+                list-style-type: none;
+                font-size: .85rem;
+                font-weight: bolder;
+                line-height: 3rem;
+            }
+            
+            #blue {
+                color: #2E71A6;
+            }
+            
+            .more-corporate-nonsense {
+                list-style-type: none;
+                margin-left: -4rem;
+                display: flex;
+                justify-content: left;
+            }
+        
+            .more-corporate-nonsense li {
+                padding: 0 1rem;
+            }
+            
+            }
+    
+    
 /*
 background purple: #540B51
 background ivory: #F3EAE2
