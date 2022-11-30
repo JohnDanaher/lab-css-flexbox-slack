@@ -6,8 +6,9 @@ html {
 nav {
     background-color: #540B51;
     display: flex;
-    align-items: center;
+    align-items:flex-start;
     justify-content: space-between;
+    margin-bottom: -6rem;
 }
 
 .hidden-links {
@@ -26,6 +27,7 @@ nav {
 
 .menu-nav-button {
     margin-right: 20px;
+    margin-top: 20px;
 }
 
 .slack-logo {
@@ -150,7 +152,7 @@ main {
 
 
 .flexibility-image {
-    margin-left: 1.5rem;
+    margin-left: 2.5em;
 }
 
 .speed-image {
